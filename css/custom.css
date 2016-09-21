@@ -7,7 +7,7 @@
 
 /* 1 Reset
 ------------------------------*/
-body, h1, h2, h3, h4, ul, p {
+body, h1, h2, h3, h4, ul, dl, dd, p {
   margin: 0;
 }
 
@@ -231,12 +231,23 @@ a {
   background-color: #fff;
 }
 
+.page6 .container {
+  width: 1240px;
+  height: 918px;
+}
+
 .page7 {
   padding: 90px 0;
 }
 
 .footer .footer-link {
   padding: 20px 0;
+}
+
+.footer .footer-link dl,
+.footer .footer-link .customer {
+  width: 20%;
+  float: left;
 }
 
 /* Team
@@ -415,6 +426,34 @@ a {
   background-color: #e0e0e0;
 }
 
+.page6 .img-box {
+  width: 400px;
+  margin: 0 5px;
+  overflow: hidden;
+}
+
 .page7 {
   background: url(../img/page7.jpg) no-repeat;
+}
+
+.footer .container {
+  overflow: hidden;
+}
+
+.footer .footer-link dl dt {
+  padding-bottom: 10px;
+  font-size: 16px;
+  color: #727272;
+}
+
+.footer .footer-link dl dd a {
+  display: block;
+  padding: 8px 0;
+  color: #8f8f8f;
+}
+
+.footer .copyright {
+  line-height: 67px;
+  color: #BBBABA;
+  text-align: center;
 }
